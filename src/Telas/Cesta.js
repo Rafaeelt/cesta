@@ -50,7 +50,7 @@ nome:{
     color:"#464646",
     fontSize: 26,
     lineHeight: 42,
-    fontWeight:"bold"
+    fontFamily:"Montserratbold"
 
 },
 fazenda:{
@@ -64,6 +64,7 @@ imagemFazenda:{
 nomeFazenda:{
     fontSize: 16,
     lineHeight: 26,
+    fontFamily:"Montserrat_400Regular"
 },
 descricao:{
     color:"#A3A3A3",
