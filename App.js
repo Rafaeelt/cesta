@@ -13,27 +13,13 @@ const [fontCarregada] = useFonts({
   "MontserratRegular": Montserrat_400Regular,
   "MontserratBold": Montserrat_700Bold,
 });
-if(!fontCarregada){
-  return<View />
-}
-import { 
-      useFonts,
-      Artistic_400Regular,
-      Artistic_700Bold
-       } from '@expo-google-fonts/artistic';
 
-      
-export default function App() {
-const [fontCarregada] = useFonts({
-  "ArtisticRegular": Artistic_400Regular,
-  "ArtisticBold": Artistic_700Bold,
-});
+
 if(!fontCarregada){
-  return< Não carregou/>
+  return<h1> Não carregou</h1>
 }
 
-
-  return (
+return (
     <SafeAreaView>
     <Cesta />
 
